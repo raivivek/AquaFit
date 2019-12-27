@@ -4,10 +4,10 @@ Fitbit app to track your beverage/water consumption.
 
 ### Goals
 
-[x] Log water/coffee/tea/beverages
-[ ] Track and see history
-[ ] Setup periodic "drink water" notification/reminders
-[ ] Settings to tweak these options
+- [x] Log water/coffee/tea/beverages
+- [ ] Track and see history
+- [ ] Setup periodic "drink water" notification/reminders
+- [ ] Settings to tweak these options
 
 ### Usage
 
