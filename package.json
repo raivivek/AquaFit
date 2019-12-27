@@ -1,0 +1,28 @@
+{
+  "fitbit": {
+    "appUUID": "93be051f-6997-446e-a5f5-34d6de72e7a1",
+    "appType": "app",
+    "appDisplayName": "AquaFit",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#03a9f4",
+    "requestedPermissions": [
+      "access_user_profile",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "AquaFit"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

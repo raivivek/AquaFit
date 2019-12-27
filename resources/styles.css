@@ -1,0 +1,20 @@
+.background {
+  viewport-fill: black;
+}
+
+.style-button {
+  width: "50%";
+  height: "100%";
+  fill: fb-light-gray;
+}
+
+.item {
+  x: 5;
+  y: 117;
+  fill: none;
+}
+
+.item text {
+  font-size: 120;
+  fill: white;
+}

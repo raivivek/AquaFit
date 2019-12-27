@@ -1,0 +1,79 @@
+<svg class="background">
+  <svg id="main-screen">
+    <use id="mixedtext" href="#mixed-text-center-mid" height="40%" fill="fb-yellow">
+      <set href="#header/text" attributeName="text-buffer" to="102%, 1234 ml"/>
+      <set href="#copy/text" attributeName="text-buffer" to="(2456 ml, Water)"/>
+    </use>
+    <svg y="$" height="20%">
+      <use id="btn-water" href="#square-button-icon" class="style-button">
+        <set href="#text"  attributeName="text-buffer" to="Aqua" />
+        <set href="#image" attributeName="href" to="water.png"/>
+      </use>
+      <use id="btn-coffee" href="#square-button-icon" class="style-button" x="50%">
+        <set href="#text"  attributeName="text-buffer" to="Cafe" />
+        <set href="#image" attributeName="href" to="coffee.png"/>
+      </use>
+    </svg>
+    <svg y="$" height="20%">
+      <use id="btn-tea" href="#square-button-icon" class="style-button">
+        <set href="#text"  attributeName="text-buffer" to="Tea" />
+        <set href="#image" attributeName="href" to="tea.png"/>
+      </use>
+      <use id="btn-milk" href="#square-button-icon" class="style-button" x="50%">
+        <set href="#text"  attributeName="text-buffer" to="Milk" />
+        <set href="#image" attributeName="href" to="milk.png"/>
+      </use>
+    </svg>
+    <svg y="$" height="20%">
+      <use id="btn-juice" href="#square-button-icon" class="style-button">
+        <set href="#text"  attributeName="text-buffer" to="Juice" />
+        <set href="#image" attributeName="href" to="juice.png"/>
+      </use>
+      <use id="btn-soda" href="#square-button-icon" class="style-button" x="50%">
+        <set href="#text"  attributeName="text-buffer" to="Soda" />
+        <set href="#image" attributeName="href" to="soda.png"/>
+      </use>
+    </svg>
+  </svg>
+  <svg id="overlay" display="none">
+    <use id="tumbler" href="#tumblerview">
+      <rect width="100%" height="100%" x="0" y="0" />
+      <use id="item0" href="#tumbler-item" class="item">
+        <text id="content">50</text>
+      </use>
+      <use id="item1" href="#tumbler-item" class="item">
+        <text id="content">100</text>
+      </use>
+      <use id="item2" href="#tumbler-item" class="item">
+        <text id="content">150</text>
+      </use>
+      <use id="item3" href="#tumbler-item" class="item">
+        <text id="content">200</text>
+      </use>
+      <use id="item4" href="#tumbler-item" class="item">
+        <text id="content">250</text>
+      </use>
+      <use id="item5" href="#tumbler-item" class="item">
+        <text id="content">300</text>
+      </use>
+      <use id="item6" href="#tumbler-item" class="item">
+        <text id="content">350</text>
+      </use>
+      <use id="item7" href="#tumbler-item" class="item">
+        <text id="content">400</text>
+      </use>
+    </use>
+    
+    <use id="btn-exit" href="#combo-button-upper-right" fill="fb-red">
+      <set href="combo-button-icon" attributeName="href" to="cross.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="cross.png"/>
+      <set href="combo-button-stroke" attributeName="display" to="inline"/>
+    </use>
+    
+    <use id="btn-save" href="#combo-button-lower-right" fill="fb-peach">
+      <set href="combo-button-icon" attributeName="href" to="btn_plus.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="btn_plus.png"/>
+      <set href="combo-button-stroke" attributeName="display" to="inline"/>
+    </use>
+  </svg>
+</svg>
